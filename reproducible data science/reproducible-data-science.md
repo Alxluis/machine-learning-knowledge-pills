@@ -173,14 +173,14 @@ To facilitate the reproducibility of experiments, it is recommended to use autom
 * Check code quality
 * Generate documentation
 
-These tools usually integrate well with Git, by performing all the analysis once you commit your changes.
+These tools usually integrate well with Git, by performing all the analysis once you commit your changes. They are called continuous integration tools.
 
 
 ### Tentative tools
 
 There are many tools of this type. They are commonly used in the production phase of projects, but it is advisable to include them also during the development phase. Let me name a few:
 
-* [Jenkins](https://jenkins.io/) is an automation server that helps compiling the code.
+* [Jenkins](https://jenkins.io/) is an automation server that helps compiling the code. Another option is [Gitlab CI](https://about.gitlab.com/gitlab-ci/).
 * [SonarQube](http://www.sonarqube.org/) is a platform to automatically manage code quality and run unitary tests.
 * A bug/issue tracking system, like [Bugzilla](https://www.bugzilla.org/), despite not being an automation tool *per se*, can be included to accelerate the process of solving issues within the project.
 
