@@ -9,7 +9,7 @@
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
-<title>friday pitch normalization slides</title>
+<title>data_science_no_es_un_boton slides</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -11978,7 +11978,7 @@ a.anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Normalizar en data science significa tranformar las variables para que tengan una escala concreta</p>
+<p>Normalizar en data science significa transformar las variables para que tengan una escala concreta</p>
 
 </div>
 </div>
@@ -12069,7 +12069,7 @@ X_{normalized} = \frac{X - X_{min}}{X_{max} - X_{min}}
 </div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[1]:</div>
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">matplotlib</span> inline
@@ -12099,7 +12099,7 @@ X_{normalized} = \frac{X - X_{min}}{X_{max} - X_{min}}
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[1]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[9]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
@@ -12235,7 +12235,7 @@ RK5CYII=
 </div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[2]:</div>
+<div class="prompt input_prompt">In&nbsp;[10]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.preprocessing</span> <span class="k">import</span> <span class="n">MinMaxScaler</span>
@@ -12257,11 +12257,11 @@ RK5CYII=
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[2]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[10]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>[&lt;matplotlib.lines.Line2D at 0x7fdc8cae6550&gt;]</pre>
+<pre>[&lt;matplotlib.lines.Line2D at 0x7f1510d865f8&gt;]</pre>
 </div>
 
 </div>
@@ -12623,7 +12623,7 @@ owHgs4yxDwWNGLXOET+IycPDw2MA4afZ8/Dw8BhAeHL38PDwGEB4cvfw8PAYQHhy9/Dw8BhAeHL3
 </div>
 </div>
 
-</div><div class="fragment">
+</div></section><section>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
@@ -12633,7 +12633,7 @@ owHgs4yxDwWNGLXOET+IycPDw2MA4afZ8/Dw8BhAeHL38PDwGEB4cvfw8PAYQHhy9/Dw8BhAeHL3
 
 </div>
 </div>
-</div></div></section><section>
+</div></section><section>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
@@ -12665,7 +12665,7 @@ X_{normalized} =  \frac{X - X_{mean}}{X_{std dev}}
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="Ejemplo-2">Ejemplo 2<a class="anchor-link" href="#Ejemplo-2">&#182;</a></h4><p>La siguiente gráfica representa la frecuencia de uso de una determinada palabra en posts de Facebook</p>
+<h4 id="Ejemplo-2">Ejemplo 2<a class="anchor-link" href="#Ejemplo-2">&#182;</a></h4><p>La siguiente gráfica representa la frecuencia de uso de dos determinadas palabras en los posts de Facebook</p>
 <hr>
 <p><img src="imagenes/facebook.png" align="left" style="width: 150px;"></p>
 
@@ -12707,7 +12707,7 @@ X_{normalized} =  \frac{X - X_{mean}}{X_{std dev}}
 </div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[3]:</div>
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#generate sine wave with outliers</span>
@@ -12737,11 +12737,11 @@ X_{normalized} =  \frac{X - X_{mean}}{X_{std dev}}
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[3]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[11]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>[&lt;matplotlib.lines.Line2D at 0x7fdc8cad4898&gt;]</pre>
+<pre>[&lt;matplotlib.lines.Line2D at 0x7f1510d655c0&gt;]</pre>
 </div>
 
 </div>
@@ -12920,14 +12920,14 @@ ItIiFOgiIi1CgS4i0iIU6CIiLUKBLiLSIhToIiIt4v8D8WGVnX2sk6kAAAAASUVORK5CYII=
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>De cara a realizar un análisis, nos gustaría poder distinguir bien entre fines de semana y días laborables. Normalizemos usando Standard Scaler</p>
+<p>De cara a realizar un análisis, nos gustaría poder distinguir bien entre fines de semana y días laborables. Normalizemos usando Standard Scaler...</p>
 
 </div>
 </div>
 </div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[4]:</div>
+<div class="prompt input_prompt">In&nbsp;[12]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.preprocessing</span> <span class="k">import</span> <span class="n">StandardScaler</span>
@@ -12949,11 +12949,11 @@ ItIiFOgiIi1CgS4i0iIU6CIiLUKBLiLSIhToIiIt4v8D8WGVnX2sk6kAAAAASUVORK5CYII=
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[4]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[12]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>[&lt;matplotlib.lines.Line2D at 0x7fdc8ca372b0&gt;]</pre>
+<pre>[&lt;matplotlib.lines.Line2D at 0x7f1510cc7be0&gt;]</pre>
 </div>
 
 </div>
@@ -13195,7 +13195,7 @@ K+AXwDfJ17Z4KX4QrFC73OSc+1sz24ifYLAMuA+4ujbpIBfM7HfxhyZ5Yx63Re1vvgX/3hgGbnDO
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Saber-&#233;stas-de-cosas-es-por-lo-que-los-Data-Scientist-est&#225;n-tan-valorados">Saber &#233;stas de cosas es por lo que los Data Scientist est&#225;n tan valorados<a class="anchor-link" href="#Saber-&#233;stas-de-cosas-es-por-lo-que-los-Data-Scientist-est&#225;n-tan-valorados">&#182;</a></h2><p><img src="imagenes/bb.jpg"></p>
+<h2 id="Saber-&#233;stas-cosas-es-por-lo-que-los-Data-Scientist-est&#225;n-tan-valorados">Saber &#233;stas cosas es por lo que los Data Scientist est&#225;n tan valorados<a class="anchor-link" href="#Saber-&#233;stas-cosas-es-por-lo-que-los-Data-Scientist-est&#225;n-tan-valorados">&#182;</a></h2><p><img src="imagenes/bb.jpg"></p>
 
 </div>
 </div>
