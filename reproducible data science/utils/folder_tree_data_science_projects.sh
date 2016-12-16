@@ -28,6 +28,6 @@ mkdir docs src models data
 
 # -- Create second level folders
 
-cd docs && mkdir tutorials resutls notebooks && cd ..
+cd docs && mkdir tutorials results notebooks && cd ..
 
 cd models && mkdir current superseded && cd ..
