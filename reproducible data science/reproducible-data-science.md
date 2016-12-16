@@ -81,6 +81,8 @@ Another useful practice to document projects is to establish an standard folder 
     * docs
         * tutorials
         * results
+        * notebooks
+
     * src
     * models
         * superseded
