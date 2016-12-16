@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Script to create teh folder tree
+# USAGE: folder_tree_data_science_projects.sh  # will run in "."
+# USAGE: folder_tree_data_science_projects.sh /path/to/your/folder # will run in "/path/to/your/folder"
+
 # -- Path
 WHERE="$1"
 
