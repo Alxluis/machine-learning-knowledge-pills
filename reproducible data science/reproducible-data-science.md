@@ -78,13 +78,10 @@ In order to generate good documentation, a project must include:
 Another useful practice to document projects is to establish an standard folder structure for all the analytical projects. I propose the following folder tree:
 
 * Project
-    * docs
-        * tutorials
-        * results
-        * notebooks
-
+    * doc
+    * notebook
     * src
-    * models
+    * model
         * superseded
         * current
     * data
@@ -92,11 +89,13 @@ Another useful practice to document projects is to establish an standard folder 
     * LICENSE
 
 
-The *docs* folder will include tutorials about the transformations suffered by the data from the source to the end results. It will also include the results themselves (pictures, etc)
+The *doc* folder will include tutorials about the transformations suffered by the data from the source to the end results. It will also include the results themselves (pictures, sphinx, etc)
+
+The *notebook* folder will contain the notebooks developed for the project.
 
 The structure inside *src* will depend mostly on your programming language of election. It will contain the code for transformation, modeling and result generation.
 
-In *models* there will be stored the serialized trained models, or the XML-like files needed to perfectly reconstruct a model to be used again. In order to avoid confusion, we can distinguish between current models being used and superseded ones (models with worse scores, model using a previous versions of the data, etc).
+In *model* there will be stored the serialized trained models, or the XML-like files needed to perfectly reconstruct a model to be used again. In order to avoid confusion, we can distinguish between current models being used and superseded ones (models with worse scores, model using a previous versions of the data, etc).
 
 In *data* there will be stored the references to all the data used in the project.
 
