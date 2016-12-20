@@ -24,10 +24,7 @@ echo "README" > ./README
 echo "LICENSE" > ./LICENSE
 
 # -- Create first level folders
-mkdir docs src models data
+mkdir doc notebook src model data
 
 # -- Create second level folders
-
-cd docs && mkdir tutorials results notebooks && cd ..
-
-cd models && mkdir current superseded && cd ..
+cd model && mkdir current superseded
